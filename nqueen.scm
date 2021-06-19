@@ -11,7 +11,7 @@
                             (cons (cons (cons (caar start) i) (car sl)) ls)
                             ls)))
                      ((= i 0) ls))))
-        ((null? sl) ls))(newline)))
+        ((null? sl) ls)))
         
 
 (define (cantkill a b)
